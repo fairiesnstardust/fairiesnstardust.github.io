@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Naila's Portfolio</title>
+</head>
+<body>
+
+<ul>
+  <li><a href="url">home</a></li>
+  <li><a href="url">glitch</a></li>
+  <li><a href="url">mash</a></li>
+</ul>
+
+<h1>Naila's Portfolio</h1>
+<p>I'm baby next level gorpcore poutine godard green juice trust fund tote bag four loko flexitarian freegan marfa biodiesel messenger bag. Small batch mumblecore cloud bread cold-pressed, neutral milk hotel pork belly tattooed activated charcoal bushwick. Hashtag listicle synth photo booth woke yr williamsburg messenger bag food truck readymade coloring book. Cornhole butcher gentrify bruh fixie bushwick.</p>
+
+</body>
+</html>
