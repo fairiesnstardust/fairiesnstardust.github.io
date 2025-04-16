@@ -9,7 +9,7 @@ var img8;
 var img9;
 var img10;
 var img11;
-var initials ='jm'; // your initials
+var initials ='nch'; // your initials
 var choice = '1'; // starting choice, so it is not empty
 var screenbg = 250; // off white background
 var lastscreenshot=61; // last screenshot never taken
