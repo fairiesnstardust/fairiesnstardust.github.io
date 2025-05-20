@@ -538,12 +538,21 @@ You are careful when you decide to go
 * [[Into a door by the bottom of the staircase]]
 * [[Into a door on the left side]]
 * [[Into the elevator on the right]]]
+(if:$hasSuperVision and $hasHint is &quot;true&quot;)[
+* [[Straight up the stairs]]
+* [[Into a door by the bottom of the staircase]]
+* [[Into a door on the left side]]
+* [[Into the elevator on the right]]]
 (if:$hasFatigue is &quot;true&quot;)[
 * [[Straight up the stairs]]
 * [[Into the elevator on the right]]
 * [[Into a door by the bottom of the staircase]]
 * [[Into a door on the right side]]
 * [[Into the elevator on the left]]]
+(if:$hasSuperVision and $hasHint and $hasFatigue is &quot;true&quot;)[
+* [[Straight up the stairs]]
+* [[Into a door by the bottom of the staircase]]
+* [[Into a door on the left side]]]
 (else:)[
 * [[Straight up the stairs]]
 * [[Into the elevator on the left]]
