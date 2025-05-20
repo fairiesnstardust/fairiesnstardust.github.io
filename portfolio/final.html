@@ -9,7 +9,7 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Final.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Final" startnode="1" creator="Twine" creator-version="2.10.0" format="Harlowe" format-version="3.3.9" ifid="065ACD81-8595-4345-944D-86621595AD3A" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="start" color="blue"></tw-tag><tw-tag name="multiple-choice" color="orange"></tw-tag><tw-tag name="passthrough" color="yellow"></tw-tag><tw-tag name="dead" color="red"></tw-tag><tw-passagedata pid="1" name="Get to the Candy Castle and steal the Candy Queen&#39;s crown!" tags="start" position="400,225" size="100,100">It is a beautiful day just outside the candy kingdom when you receive a telegram from your comrade who is also a bounty hunter. He lives inside the candy kingdom so he gets all the town news before you.
+<tw-storydata name="Final" startnode="1" creator="Twine" creator-version="2.10.0" format="Harlowe" format-version="3.3.9" ifid="065ACD81-8595-4345-944D-86621595AD3A" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="start" color="blue"></tw-tag><tw-tag name="multiple-choice" color="orange"></tw-tag><tw-tag name="passthrough" color="yellow"></tw-tag><tw-tag name="dead" color="red"></tw-tag><tw-tag name="win!" color="green"></tw-tag><tw-passagedata pid="1" name="Get to the Candy Castle and steal the Candy Queen&#39;s crown!" tags="start" position="400,225" size="100,100">It is a beautiful day just outside the candy kingdom when you receive a telegram from your comrade who is also a bounty hunter. He lives inside the candy kingdom so he gets all the town news before you.
 
 You [[open]] the letter.
 
@@ -305,13 +305,13 @@ What is Dan even doing to help?? you wonder
 
 It&#39;s too late to ditch him now
 
-You guys make your way to the [[castle]]</tw-passagedata><tw-passagedata pid="26" name="castle" tags="multiple-choice" position="425,1875" size="100,100">When you guys arrive at the castle you are met with gaint gates at lest 10 feet tall
+You guys make your way to the [[castle]]</tw-passagedata><tw-passagedata pid="26" name="castle" tags="multiple-choice" position="425,1875" size="100,100">When you guys arrive at the castle you are met with gaint gates at least 10 feet tall
 
 The golden gates glisten in the sun almost blinding you
 
 Behind them theres a dramatic staircase leading to the door of the castle
 
-In front of them stand two huge guards who&#39;s faces are show discontent
+In front of them stand two huge guards who&#39;s faces show discontent
 
 They are in black suits with peppermints on the shoulders
 
@@ -356,7 +356,7 @@ you wonder
 Dan pulls on your sleeve signaling that he wants to continue
 
 Give in and [[keep walking]]
-Pull out your knife and [[challenge]] the //villager//
+Pull out your knife and [[challenge]] the &#39;&#39;villager&#39;&#39;
 Ask him [[why]]</tw-passagedata><tw-passagedata pid="29" name="Say hello" tags="multiple-choice passthrough" position="525,1375" size="100,100">&lt;span style=&quot;font-family: &#39;Courier New&#39;, monospace;&quot;&gt;Hey! how are you doing today? pretty hot out today haha&lt;/span&gt;
 you smile
 
@@ -517,7 +517,113 @@ You sigh in relief and continue on your journey to the [[city gates]]
 
 </tw-passagedata><tw-passagedata pid="38" name="enter" tags="multiple-choice" position="425,2025" size="100,100">As you enter the castle you are met with a huge ballroom through the main doors
 
-There is a staircase straight ahead and doors on i=wither side</tw-passagedata></tw-storydata>
+There is a staircase straight ahead leading to double doors as well as two doors on either side of the bottom of the staircase.
+
+The chandelier in the center of the dome ceiling reflects sun coming in through the stain glassed windows on to the walls.
+
+Many doors line the walls leaving up to the staircase paired with an elevator on wither side.
+
+There are so many options, and you know you only have one chance because once you open a door incorrectly they&#39;ll know you arent supposed to be there.
+
+You are careful when you decide to go
+(if:$hasHint is &quot;true&quot;)[
+* [[Straight up the stairs]]
+* [[Into the elevator on the left]]
+* [[Into a door by the bottom of the staircase]]
+* [[Into a door on the left side]]
+* [[Into the elevator on the right]]]
+(if:$hasSuperVision is &quot;true&quot;)[
+* [[Straight up the stairs]]
+* [[Into the elevator on the left]]
+* [[Into a door by the bottom of the staircase]]
+* [[Into a door on the left side]]
+* [[Into the elevator on the right]]]
+(if:$hasFatigue is &quot;true&quot;)[
+* [[Straight up the stairs]]
+* [[Into the elevator on the right]]
+* [[Into a door by the bottom of the staircase]]
+* [[Into a door on the right side]]
+* [[Into the elevator on the left]]]
+(else:[* [[Straight up the stairs]]
+* [[Into the elevator on the left]]
+* [[Into a door by the bottom of the staircase]]
+* [[Into a door on the left side]]
+* [[Into the elevator on the right]]
+* [[Into a door on the right side]]])</tw-passagedata><tw-passagedata pid="39" name="Straight up the stairs" tags="win!" position="425,2150" size="100,100">You and Dan slowly inch up the stairs careful not to be seen
+
+You two push open the double doors and are surprised to see the crown right in front og you, sittin atop a little table with a glass cover over it.
+
+You guys take the crown and put it in your bag
+
+You accidentally let out a little laugh in excitment but quickly stop out of fear of being caught
+
+You guys run out the doors, leap down the stairs and wave the guards goodbye as you sprint through town and back outside the city gates
+
+You guys admire your find in awe
+
+YOU WON!!!!!!</tw-passagedata><tw-passagedata pid="40" name="Into the elevator on the left" tags="dead" position="550,2275" size="100,100">Once you get out of the elevator you are met with another door directly in front of it and no other way through
+
+You guys go through the door, it&#39;s unusually heavy
+
+It slams shut behind you two and its pitch black
+
+When your eyes adjust you notice a barred window and hay and dirt on the floor
+
+Its a jail cell
+
+You guys fell into a trap set for intruders looking to steal the crown and are now sentenced to life in jail for indangering the princess and the crown</tw-passagedata><tw-passagedata pid="41" name="Into a door by the bottom of the staircase" tags="dead" position="425,2275" size="100,100">When you guys open the door you find the princess having dinner with guards on wither end
+
+She obviously doesnt recognize you two and screams
+
+The guards immediately retrain you and throw you into jail for life for indangering the princess and the crown
+</tw-passagedata><tw-passagedata pid="42" name="Into a door on the left side" tags="win!" position="300,2150" size="100,100">You guys silently tip toe over to the door and carefully turn the door knob and push
+
+You are met with a hallway and you go down the right side
+
+You suddenly come to a big room and spot the cown on a balcony, there are some stairs on the side and you two run up
+
+The crown is on a little table covered by a glass dome
+
+You guys quickly take the crown and put it in your bag
+
+You accidentally let out a little laugh in excitment but quickly stop out of fear of being caught
+
+You guys run out the doors, leap down the stairs and wave the guards goodbye as you sprint through town and back outside the city gates
+
+You guys admire your find in awe
+
+YOU WON!!!!!!
+
+</tw-passagedata><tw-passagedata pid="43" name="Into the elevator on the right" tags="win!" position="550,2150" size="100,100">You guys go in the elevator and take it to the second floor
+
+As the doors open you guys are surprised to find the crown right on your left upon exiting the elevator
+
+It sits on a little table covered by a glass dome its beauty reflected in the light
+
+You guys quickly take the crown and put it in your bag
+
+You accidentally let out a little laugh in excitment but quickly stop out of fear of being caught
+
+You guys run out the doors, leap down the stairs and wave the guards goodbye as you sprint through town and back outside the city gates
+
+You guys admire your find in awe
+
+YOU WON!!!!!!
+
+</tw-passagedata><tw-passagedata pid="44" name="Into a door on the right side" tags="dead" position="300,2275" size="100,100">You guys open the door and find rabid &#39;&#39;Gingerbread Dog&#39;&#39;
+
+It jumps and you and bites your neck
+
+You hit the floor
+
+It jumps on Dan and gets him down too
+
+He can&#39;t help you
+
+Soon guards rush in and arrest you guys 
+
+You are sentenced to life in prison for indangering the princess and the crown
+</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
